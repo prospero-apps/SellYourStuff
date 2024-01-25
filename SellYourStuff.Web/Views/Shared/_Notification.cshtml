@@ -1,0 +1,12 @@
+﻿@if (TempData["success"] != null)
+{
+    <p class="text-bg-success p-2 text-uppercase font-monospace">
+        @TempData["success"]
+    </p>
+}
+@if (TempData["error"] != null)
+{
+    <p class="text-bg-danger p-2 text-uppercase font-monospace">
+        @TempData["error"]
+    </p>
+}
